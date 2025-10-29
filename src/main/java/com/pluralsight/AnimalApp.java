@@ -7,14 +7,14 @@ public class AnimalApp {
         animal.makeSound();
 
 
-        Dog dog = new Dog();
+        Animal dog = new Dog();
 //        dog.eat();
 //        dog.sleep();
 //        dog.breathe();
 //        dog.sniffButt();
         dog.makeSound();
 
-        Cat cat = new Cat();
+        Animal cat = new Cat();
 //        cat.eat();
 //        cat.sleep();
 //        cat.breathe();
