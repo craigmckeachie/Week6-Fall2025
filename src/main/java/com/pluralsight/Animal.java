@@ -1,6 +1,6 @@
 package com.pluralsight;
 
-public class Animal {
+public abstract class Animal {
 
     public void makeSound(){
         System.out.println("The animal is making noise.");

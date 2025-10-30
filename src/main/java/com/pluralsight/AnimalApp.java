@@ -5,6 +5,8 @@ import java.util.ArrayList;
 public class AnimalApp {
 
     public static void main(String[] args) {
+        Animal animal = new Animal();
+
         Animal dog = new Dog();
         Animal cat = new Cat();
         ArrayList<Animal> animals = new ArrayList<>();
@@ -12,6 +14,7 @@ public class AnimalApp {
         animals.add(cat);
 
         for (Animal animal: animals) {
+            System.out.println(animal.getClass());
             animal.makeSound();
         }
 
